@@ -1,0 +1,21 @@
+# GodGear Configuration File
+# For more information, visit: https://github.com/hjhunkharlo-blip/GodGear
+
+# General Settings
+settings:
+  # Enable debug mode for detailed logging
+  debug: false
+  
+  # Plugin prefix for messages
+  prefix: "&b[GodGear]&r"
+
+# Messages
+messages:
+  plugin-enabled: "GodGear has been enabled!"
+  plugin-disabled: "GodGear has been disabled!"
+  no-permission: "You don't have permission to use this command."
+  unknown-command: "Unknown command. Use /godgear help for assistance."
+
+# Add your custom settings below
+custom:
+  # Your configuration options here
