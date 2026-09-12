@@ -1,0 +1,24 @@
+name: GodGear
+version: 1.0.0
+description: A complete Paper Spigot API Minecraft plugin with Maven build system
+author: hjhunkharlo-blip
+website: https://github.com/hjhunkharlo-blip/GodGear
+
+main: com.godgear.GodGear
+
+# Supported Minecraft versions
+api-version: 1.16
+
+# Plugin commands
+commands:
+  godgear:
+    description: Main GodGear command
+    usage: /godgear help
+    aliases: [gg]
+    permission: godgear.command
+
+# Plugin permissions
+permissions:
+  godgear.command:
+    description: Allows access to GodGear commands
+    default: op
